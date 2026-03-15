@@ -1,5 +1,5 @@
-name: "✨ Feature Request"
-description: "Suggest a new feature or improvement for the project"
+name: "✨ Solicitar Funcionalidade"
+description: "Sugira uma nova funcionalidade ou melhoria para o projeto"
 title: "[FEATURE] "
 labels: ["enhancement"]
 assignees: []
@@ -8,90 +8,90 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## ✨ Feature Request
+        ## ✨ Solicitar Funcionalidade
 
-        Thank you for suggesting a new feature!
+        Obrigado por sugerir uma nova funcionalidade!
 
-        Feature requests help improve the project and make it more useful for everyone.
+        As solicitações de funcionalidades ajudam a melhorar o projeto e torná-lo mais útil para todos.
 
-        **Before submitting**
-        - Check if a similar feature request already exists
-        - Provide clear details about the problem and the proposed solution
-        - Include examples or references when possible
+        **Antes de enviar**
+        - Verifique se já existe uma solicitação de funcionalidade semelhante
+        - Forneça detalhes claros sobre o problema e a solução proposta
+        - Inclua exemplos ou referências sempre que possível
 
   - type: textarea
     id: context
     attributes:
-      label: 📌 Context
-      description: Describe the problem or opportunity that motivated this feature request.
+      label: 📌 Contexto
+      description: Descreva o problema ou a oportunidade que motivou esta solicitação de funcionalidade.
       placeholder: |
-        Example:
-        Users currently cannot export reports as CSV files, which makes it difficult to analyze data outside the application.
+        Exemplo:
+        Atualmente, os usuários não conseguem exportar relatórios como arquivos CSV, o que dificulta a análise de dados fora do aplicativo.
     validations:
       required: true
 
   - type: textarea
     id: objective
     attributes:
-      label: 🎯 Objective
-      description: Clearly explain what should be implemented.
+      label: 🎯 Objectivo
+      description: Explique claramente o que deve ser implementado.
       placeholder: |
-        Example:
-        Add an option to export reports as CSV or Excel files directly from the dashboard.
+        Exemplo:
+        Adicionar uma opção para exportar relatórios como arquivos CSV ou Excel diretamente do painel de controle (dashboard).
     validations:
       required: true
 
   - type: textarea
     id: scope
     attributes:
-      label: 📦 Scope
-      description: List the main functionalities or parts included in this feature.
+      label: 📦 Escopo
+      description: Liste as principais funcionalidades ou partes incluídas nesta funcionalidade.
       placeholder: |
-        Example:
-        - Add export button in the report page
-        - Generate CSV file from report data
-        - Allow Excel export format
-        - Add download notification
+        Exemplo:
+        - Adicionar botão de exportação na página de relatório
+        - Gerar arquivo CSV a partir dos dados do relatório
+        - Permitir formato de exportação Excel
+        - Adicionar notificação de download
 
   - type: textarea
     id: technical_requirements
     attributes:
-      label: ⚙ Technical Requirements
-      description: List technical requirements, dependencies, or implementation details.
+      label: ⚙ Requisitos Técnicos
+      description: Liste requisitos técnicos, dependências ou detalhes de implementação.
       placeholder: |
-        Example:
-        - Integration with reporting API
-        - Use backend service to generate files
-        - Update frontend UI to include export options
-        - Ensure compatibility with existing report filters
+        Exemplo:
+        - Integração com a API de relatórios
+        - Uso de serviço backend para gerar arquivos
+        - Atualizar a interface do frontend para incluir opções de exportação
+        - Garantir compatibilidade com os filtros de relatório existentes
 
   - type: textarea
     id: references
     attributes:
-      label: 🔗 References
-      description: Add links to related issues, documentation, designs, or external examples.
+      label: 🔗 Referências
+      description: Adicione links para issues relacionadas, documentação, designs ou exemplos externos.
       placeholder: |
-        Example:
-        - Related issue: #42
-        - Design mockup: https://figma.com/example
-        - Similar feature: https://example.com/docs/export
+        Exemplo:
+        - Issue relacionada: #42
+        - Mockup de design: https://figma.com/exemplo
+        - Funcionalidade semelhante: https://exemplo.com/docs/export
 
   - type: textarea
     id: value
     attributes:
-      label: 💡 Value / Impact
-      description: Explain how this feature will benefit users or the project.
+      label: 💡 Valor / Impacto
+      description: Explique como essa funcionalidade beneficiará os usuários ou o projeto.
       placeholder: |
-        Example:
-        This feature will allow users to analyze data in external tools such as Excel or BI platforms.
+        Exemplo:
+        Esta funcionalidade permitirá que os usuários analisem dados em ferramentas externas, como Excel ou plataformas de BI.
 
   - type: checkboxes
     id: acceptance_criteria
     attributes:
-      label: ✔ Acceptance Criteria
-      description: Conditions required to consider this feature complete.
+      label: ✔ Critérios de Aceitação
+      description: Condições necessárias para considerar esta funcionalidade como concluída.
       options:
-        - label: Feature implemented according to the described scope
-        - label: Implementation tested in development environment
-        - label: No regressions introduced
-        - label: Documentation updated if necessary
+        - label: Funcionalidade implementada de acordo com o escopo descrito
+        - label: Implementação testada em ambiente de desenvolvimento
+        - label: Nenhuma regressão foi introduzida
+        - label: Documentação atualizada, se necessário

@@ -1,5 +1,5 @@
-name: "⚙ Technical Task"
-description: "Technical work such as refactoring, performance improvements, or architectural changes"
+name: "⚙ Tarefa Técnica"
+description: "Trabalho técnico, como refatoração, melhorias de desempenho ou mudanças arquiteturais"
 title: "[TASK] "
 labels: ["task"]
 assignees: []
@@ -8,85 +8,85 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## ⚙ Technical Task
+        ## ⚙ Tarefa Técnica
 
-        Use this template to register **technical work** related to internal improvements in the project.
+        Use este template para registrar **trabalho técnico** relacionado a melhorias internas no projeto.
 
-        Examples include:
-        - Code refactoring
-        - Performance optimization
-        - Codebase organization
-        - Architecture improvements
-        - Infrastructure changes
-        - Dependency updates
+        Exemplos incluem:
+        - Refatoração de código
+        - Otimização de desempenho
+        - Organização da base de código
+        - Melhorias de arquitetura
+        - Mudanças de infraestrutura
+        - Atualização de dependências
 
-        These tasks usually **do not introduce new features**, but improve maintainability, stability, or scalability.
+        Essas tarefas geralmente **não introduzem novas funcionalidades**, mas melhoram a manutenibilidade, estabilidade ou escalabilidade.
 
   - type: textarea
     id: context
     attributes:
-      label: 📌 Context
-      description: Describe the technical need or problem that motivates this task.
+      label: 📌 Contexto
+      description: Descreva a necessidade técnica ou o problema que motiva esta tarefa.
       placeholder: |
-        Example:
-        The authentication module has grown significantly and now contains duplicated logic,
-        making it harder to maintain and test.
+        Exemplo:
+        O módulo de autenticação cresceu significativamente e agora contém lógica duplicada,
+        tornando-o mais difícil de manter e testar.
     validations:
       required: true
 
   - type: textarea
     id: objective
     attributes:
-      label: 🎯 Objective
-      description: Explain clearly what should be achieved after completing this task.
+      label: 🎯 Objectivo
+      description: Explique claramente o que deve ser alcançado após a conclusão desta tarefa.
       placeholder: |
-        Example:
-        Refactor the authentication module to separate responsibilities and improve code readability.
+        Exemplo:
+        Refatorar o módulo de autenticação para separar responsabilidades e melhorar a legibilidade do código.
     validations:
       required: true
 
   - type: textarea
     id: scope
     attributes:
-      label: 📦 Scope
-      description: List the main technical activities included in this task.
+      label: 📦 Escopo
+      description: Liste as principais atividades técnicas incluídas nesta tarefa.
       placeholder: |
-        Example:
-        - Extract authentication logic into dedicated services
-        - Remove duplicated code
-        - Improve folder structure
-        - Update related tests
+        Exemplo:
+        - Extrair lógica de autenticação em serviços dedicados
+        - Remover código duplicado
+        - Melhorar a estrutura de pastas
+        - Atualizar testes relacionados
 
   - type: textarea
     id: technical_requirements
     attributes:
-      label: 🧰 Technical Requirements
-      description: List technologies, dependencies, or constraints involved in this task.
+      label: ⚙ Requisitos Técnicos
+      description: Liste tecnologias, dependências ou restrições envolvidas nesta tarefa.
       placeholder: |
-        Example:
-        - Update dependencies to latest stable versions
-        - Maintain compatibility with current API
-        - Follow project architecture guidelines
+        Exemplo:
+        - Atualizar dependências para as versões estáveis mais recentes
+        - Manter compatibilidade com a API atual
+        - Seguir as diretrizes de arquitetura do projeto
 
   - type: textarea
     id: impact
     attributes:
-      label: 🔍 Impact
-      description: Describe how this task may affect the system.
+      label: 🔍 Impacto
+      description: Descreva como esta tarefa pode afetar o sistema.
       placeholder: |
-        Example:
-        - Improves maintainability
-        - Reduces technical debt
-        - Improves performance in authentication flows
+        Exemplo:
+        - Melhora a manutenibilidade
+        - Reduz o débito técnico
+        - Melhora o desempenho nos fluxos de autenticação
 
   - type: checkboxes
     id: acceptance_criteria
     attributes:
-      label: ✔ Acceptance Criteria
-      description: Conditions required to consider this task complete.
+      label: ✔ Critérios de Aceitação
+      description: Condições necessárias para considerar esta tarefa como concluída.
       options:
-        - label: Implementation completed according to scope
-        - label: Code reviewed and approved
-        - label: Changes tested in development environment
-        - label: Code follows project standards and conventions
-        - label: Related tests updated or added if necessary
+        - label: Implementação concluída de acordo com o escopo
+        - label: Código revisado e aprovado
+        - label: Alterações testadas em ambiente de desenvolvimento
+        - label: O código segue os padrões e convenções do projeto
+        - label: Testes relacionados atualizados ou adicionados, se necessário

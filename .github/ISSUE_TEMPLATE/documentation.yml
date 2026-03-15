@@ -1,99 +1,99 @@
-name: "📚 Documentation"
-description: "Create, improve, or update project documentation"
+name: "📚 Documentação"
+description: "Crie, melhore ou atualize a documentação do projeto"
 title: "[DOCS] "
-labels: ["documentation"]
+labels: ["Documentação"]
 assignees: []
 
 body:
   - type: markdown
     attributes:
       value: |
-        ## 📚 Documentation Request
+        ## 📚 Request de Documentação
 
-        Use this template to request **new documentation** or **updates to existing documentation**.
+        Use este template para solicitar **nova documentação** ou **atualizações em documentações existentes**.
 
-        Good documentation helps users and contributors understand how the project works.
+        Uma boa documentação ajuda usuários e contribuidores a entenderem como o projeto funciona.
 
-        **Tips**
-        - Be clear about what needs to be documented
-        - Include examples if possible
-        - Link to related features or issues
+        **Dicas**
+        - Seja claro sobre o que precisa ser documentado
+        - Inclua exemplos, se possível
+        - Adicione links para funcionalidades ou issues relacionadas
 
   - type: textarea
     id: context
     attributes:
-      label: 📌 Context
-      description: Describe the situation that requires documentation.
+      label: 📌 Contexto
+      description: Descreva a situação que exige documentação.
       placeholder: |
-        Example:
-        A new authentication system was added but there is no documentation explaining how to configure it.
+        Exemplo:
+        Um novo sistema de autenticação foi adicionado, mas não há documentação explicando como configurá-lo.
     validations:
       required: true
 
   - type: textarea
     id: objective
     attributes:
-      label: 🎯 Objective
-      description: Clearly explain what the documentation should cover.
+      label: 🎯 Objetivo
+      description: Explique claramente o que a documentação deve cobrir.
       placeholder: |
-        Example:
-        Create a guide explaining how to configure authentication using environment variables.
+        Exemplo:
+        Criar um guia explicando como configurar a autenticação usando variáveis de ambiente.
     validations:
       required: true
 
   - type: checkboxes
     id: scope
     attributes:
-      label: 📦 Scope
-      description: Select what type of documentation should be created or updated.
+      label: 📦 Escopo
+      description: Selecione o tipo de documentação que deve ser criada ou atualizada.
       options:
-        - label: User guide / usage instructions
-        - label: Technical explanation
-        - label: README update
-        - label: Code examples
-        - label: API documentation
-        - label: Installation or setup guide
+        - label: Guia do usuário / instruções de uso
+        - label: Explicação técnica
+        - label: Atualização do README
+        - label: Exemplos de código
+        - label: Documentação de API
+        - label: Guia de instalação ou configuração
 
   - type: textarea
     id: documentation_location
     attributes:
-      label: 📍 Documentation Location
-      description: Where should this documentation live?
+      label: 📍 Localização da Documentação
+      description: Onde esta documentação deve residir?
       placeholder: |
-        Example:
+        Exemplo:
         - README.md
-        - Project Wiki
-        - /docs folder
-        - Internal documentation portal
-        - API reference section
+        - Wiki do Projeto
+        - Pasta /docs
+        - Portal de documentação interna
+        - Seção de referência da API
 
   - type: textarea
     id: references
     attributes:
-      label: 🔗 References
-      description: Provide links to related issues, features, or external documentation.
+      label: 🔗 Referencias
+      description: Forneça links para issues relacionadas, funcionalidades ou documentações externas.
       placeholder: |
-        Example:
-        - Related issue: #123
-        - API documentation: https://example.com/api
-        - Similar implementation: https://docs.example.com/auth
+        Exemplo:
+        - Issue relacionada: #123
+        - Documentação da API: https://exemplo.com/api
+        - Implementação semelhante: https://docs.exemplo.com/auth
 
   - type: textarea
     id: additional_context
     attributes:
-      label: 🧩 Additional Context
-      description: Any extra details that may help create the documentation.
+      label: 🧩 Contexto Adicional
+      description: Quaisquer detalhes extras que possam ajudar a criar a documentação.
       placeholder: |
-        Example:
-        The documentation should include examples using both REST and CLI.
+        Exemplo:
+        A documentação deve incluir exemplos usando tanto REST quanto CLI.
 
   - type: checkboxes
     id: acceptance_criteria
     attributes:
-      label: ✔ Acceptance Criteria
-      description: Conditions required to consider this documentation complete.
+      label: ✔ Critérios de Aceitação 
+      description: Condições necessárias para considerar esta documentação como concluída.
       options:
-        - label: Documentation created or updated
-        - label: Content reviewed for clarity and accuracy
-        - label: Documentation accessible to the team or users
-        - label: Examples or usage instructions included
+        - label: Documentação criada ou atualizada
+        - label: Conteúdo revisado para clareza e precisão
+        - label: Documentação acessível para a equipe ou usuários
+        - label: Exemplos ou instruções de uso incluídos
