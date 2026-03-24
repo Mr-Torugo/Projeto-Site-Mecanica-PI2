@@ -61,6 +61,28 @@ Acesso: Abra http://localhost/oficina-mecanica no navegador.
 
 ---
 
+### Fluxo de Commits:
+
+Para manter a organização no GitHub, a equipe adota regras para os commits:
+
+feat: Nova funcionalidade (ex: feat: adiciona cadastro de veículos)
+
+fix: Correção de bug (ex: fix: corrige erro no cálculo do total financeiro)
+
+docs: Mudanças na documentação (ex: docs: atualiza instruções de setup)
+
+style: Formatação de código (ex: style: formata indentation do index.php)
+
+Controle de Versão (Git Flow Simplificado):
+
+A branch main é reservada para a versão estável e final do projeto.
+
+Todo o desenvolvimento é feito em branches específicas (feat/cadastro-clientes, fix/login).
+
+O merge para a main requer a revisão de pelo menos dois membros da equipe.
+
+---
+
 ### 📝 Equipe NEXT (TSI - 2º Semestre)
 
 ALICKSON RAMOS LISBOA – [Front-end / Integração]
