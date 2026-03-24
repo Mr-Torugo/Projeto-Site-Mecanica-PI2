@@ -36,6 +36,7 @@ Servidor Web Local: XAMPP / WampServer
 📁 Estrutura de Diretórios (Exemplo em PHP)
 Este projeto segue uma estrutura organizada para facilitar a manutenção e o desenvolvimento em equipe.
 
+```text
 .
 ├── sql/                  # Scripts de criação do banco (schema.sql)
 ├── src/
@@ -50,6 +51,8 @@ Este projeto segue uma estrutura organizada para facilitar a manutenção e o de
 │   └── index.php         # Dashboard Principal / Login
 ├── docs/                 # Documentação do escopo e requisitos
 └── .env.example          # Exemplo de configuração de ambiente
+```
+
 
 ⚙️ Setup de Desenvolvimento
 Para rodar o projeto localmente, siga os passos abaixo:
