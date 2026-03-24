@@ -48,7 +48,10 @@ O projeto segue uma estrutura organizada para garantir escalabilidade e facilida
 ### ⚙️ Setup de Desenvolvimento
 
 Clone o Repositório:
-git clone https://github.com/next-semester/oficina-mecanica.git
+
+```text
+git clone [https://github.com/next-semester/oficina-mecanica.git](https://github.com/Mr-Torugo/Projeto-Site-Mecanica-PI2.git)
+```
 
 Servidor Local: Mova a pasta para o htdocs (XAMPP).
 
