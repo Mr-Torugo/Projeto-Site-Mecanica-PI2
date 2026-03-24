@@ -50,7 +50,7 @@ O projeto segue uma estrutura organizada para garantir escalabilidade e facilida
 Clone o Repositório:
 
 ```text
-git clone [https://github.com/next-semester/oficina-mecanica.git](https://github.com/Mr-Torugo/Projeto-Site-Mecanica-PI2.git)
+git clone https://github.com/Mr-Torugo/Projeto-Site-Mecanica-PI2.git
 ```
 
 Servidor Local: Mova a pasta para o htdocs (XAMPP).
@@ -61,7 +61,7 @@ Acesso: Abra http://localhost/oficina-mecanica no navegador.
 
 ---
 
-### 📝 Equipe NEXT SEMESTER (TSI - 2º Semestre)
+### 📝 Equipe NEXT (TSI - 2º Semestre)
 
 ALICKSON RAMOS LISBOA
 
