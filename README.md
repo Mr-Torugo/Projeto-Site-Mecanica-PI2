@@ -63,13 +63,13 @@ Acesso: Abra http://localhost/oficina-mecanica no navegador.
 
 ### 📝 Equipe NEXT (TSI - 2º Semestre)
 
-ALICKSON RAMOS LISBOA
+ALICKSON RAMOS LISBOA – [Front-end / Integração]
 
-PEDRO NASCIMENTO JESUS
+PEDRO NASCIMENTO JESUS – [Banco de Dados / Lógica Back-end]
 
-VITOR HUGO DE JESUS SILVA
+VITOR HUGO DE JESUS SILVA – [Product Owner / Back-end / Front-end]
 
-WALLACE FRANCISCO OLIVEIRA SILVA
+WALLACE FRANCISCO OLIVEIRA SILVA – [Lógica Back-end / Documentação]
 
 ---
 
